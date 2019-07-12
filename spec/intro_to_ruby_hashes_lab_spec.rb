@@ -2,7 +2,7 @@ require_relative 'spec_helper'
 require_relative '../intro_to_ruby_hashes_lab.rb'
 
 describe "working with hashes" do
-
+person = {first_name: "Philip", last_name: "Brown"}  
   describe "instantiating" do
     describe "new_hash" do
       options = { font_size: 10, font_family: "Arial" }
