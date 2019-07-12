@@ -5,7 +5,7 @@ describe "working with hashes" do
 
   describe "instantiating" do
     describe "new_hash" do
-      def create_shopping_list
+      options = { font_size: 10, font_family: "Arial" }
   # hashes are created with brackets {}. E.G: new_hash = {}
   hash = {
     "title" => "Grocery List", # this is a key / value pair. In this case, "title" is the key and "Grocery List" is the value
