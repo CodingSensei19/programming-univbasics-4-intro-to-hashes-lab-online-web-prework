@@ -5,6 +5,13 @@ describe "working with hashes" do
 
   describe "instantiating" do
     describe "new_hash" do
+      def create_shopping_list
+  # hashes are created with brackets {}. E.G: new_hash = {}
+  hash = {
+    "title" => "Grocery List", # this is a key / value pair. In this case, "title" is the key and "Grocery List" is the value
+    "items" => []  # the key 'item' is an empty array.
+  }
+end
       it "creates an empty hash and returns it" do
         expect(new_hash).to eq({})
       end
